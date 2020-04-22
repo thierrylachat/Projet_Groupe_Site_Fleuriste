@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+::selection {
+    background-color: #B7CE63;
+    color: white;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    background-image: url("../img/bg/womanflowers_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+#about {
+    background-image: url("../img/bg/woman-in-black-and-white-dress_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+#news{
+    background-image: url("../img/bg/flower2.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+#creation{
+    background-image: url("../img/bg/flower3.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+#contact{
+    background-image: url("../img/bg/flower1.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.bg-greenlight {
+    background-color: #B7CE63;
+}
+.bg-whitegreen {
+    background-color: #CCD7A7;
+}
+.bg-darkgreen {
+    background-color:#78911a;
+}
+.font-parisienne {
+    font-family: 'Parisienne', cursive;
+}
+.font-OpenSans {
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-darkalpha {
+    background-color: #77911ad8;   
+}
+.mw-content {
+    min-width: min-content;
+}
+.text-shadow-1px {
+    text-shadow: 0.1rem 0.1rem #0000006c;
+}
+.text-smaller {
+    font-size: 0.8rem;
+}
+.btn-darkgreen {
+    background-color:#78911a;
+    color: white;
+}
+.btn-darkgreen:hover {
+    background-color: #B7CE63;
+    transition: 0.5s;
+}
+@media (min-width: 575px) {
+    .maxw-img {
+        max-width: 25%;
+    }
+}
+.form-w {
+    padding: 10px;
+    background-color: #CCD7A7;
+    margin-top: 100px;
+}
+#form-contact input, #textarea{
+    border:solid 2px #dae7a8;
+}
+#button-form-contact {
+    background-color:white;
+    border:solid 2px #dae7a8;
+}
+#button-form-contact:hover {
+    transition: 0.2s;
+}
+.svg-footer {
+    width: 40px;
+    height: 40px;
+}
+@media (max-width: 540px) {
+    #creation, #news, #contact{
+        background-image: none;
+    }
+}
